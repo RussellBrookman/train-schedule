@@ -71,7 +71,7 @@ database.ref().on("child_added", function(childSnapshot) {
     subtractionValue = timeDifference % childSnapshot.nextTrain;
     inMinutes = childSnapshot.nextTrain - subtractionValue;
     nextTrainArrivalTime = moment().add(inMinutes, "minutes");
-    firstTrainArrivalTime = moment(nextTrainArrivalTime).format("hh:mm a")
+    firstTrainArrivalTime = moment(nextTrainArrivalTime).format("hh:mm a");
   }
   // Add trains data
   $("#thBody").append("<tr><td>" + childSnapshot.trainName + "</td><td>" + childSnapshot.destination + "</td><td>" +
