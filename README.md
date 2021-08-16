@@ -16,7 +16,7 @@ This site is for the backend user. Values can be plugged into the server. It wil
 * MomentJS
 
 
-# Directions: (add (example: ))
+# Directions: 
 
 1. Enter a Train Name (example: Amtrak)
 
